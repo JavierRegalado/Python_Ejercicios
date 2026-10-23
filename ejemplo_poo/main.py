@@ -8,3 +8,4 @@ try:
 except CaloriasInvalidasError as e:
     print(f"Error: {e.calorias}, {e.args[0]}")
 
+
