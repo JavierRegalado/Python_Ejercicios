@@ -6,6 +6,5 @@ try:
     print(pizza)
 
 except CaloriasInvalidasError as e:
-    print(f"Error: {e.calorias}")
-
+    print(f"Error: {e.calorias}, {e.args[0]}")
 
